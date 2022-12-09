@@ -1,0 +1,23 @@
+{
+  "name": "nano_fsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saralhanda/NANO_FSD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saralhanda/NANO_FSD/issues"
+  },
+  "homepage": "https://github.com/Saralhanda/NANO_FSD#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
