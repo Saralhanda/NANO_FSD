@@ -5,6 +5,23 @@
         <title>FORMS</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
+<script>
+    function ValidateEmail(Email) {
+    var validRegex = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+    if (input.Email.match(validRegex)) 
+    {
+        alert("Valid email address!");
+    document.forms.text1.focus();
+    return true;
+    } 
+    else 
+    {
+    alert("Invalid email address!");
+    document.forms.text1.focus();
+    return false;
+    }
+    }
+</script>
 <body>
    
     <form action="/" method="post">
