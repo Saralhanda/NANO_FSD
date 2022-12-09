@@ -1,0 +1,9 @@
+body {
+  background-image: url("image.jpg");
+  text-align: center;
+}
+
+.a {
+  font-size: 40px;
+  padding-top: 200px;
+}
