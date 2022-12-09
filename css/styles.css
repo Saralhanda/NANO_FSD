@@ -3,7 +3,11 @@ body {
   text-align: center;
 }
 
-.a {
+form {
   font-size: 40px;
   padding-top: 200px;
+}
+input{
+  padding: 15px;
+  border-radius: 8px;
 }
